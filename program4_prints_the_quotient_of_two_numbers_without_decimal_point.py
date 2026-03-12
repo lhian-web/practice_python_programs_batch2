@@ -1,3 +1,6 @@
 # Input two numbers
-# Take the quotient
-# print the quotient
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+quotient =  num1 // num2 # Take the quotient
+print("The quotient is", quotient)# print the quotient
