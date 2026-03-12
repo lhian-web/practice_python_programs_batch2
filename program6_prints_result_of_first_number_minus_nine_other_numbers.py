@@ -1,4 +1,7 @@
 # Input first number
-# Nine other numbers
-# Subtract numbers to first number
-# Print result
+result = float(input("Enter first number: "))
+
+for i in range(9): # Nine other numbers
+    result -= float(input("Enter a number: ")) # Subtract numbers to first number
+
+print("The result is", result)# Print result
